@@ -2941,5 +2941,150 @@
             "locations": [],
             "organizations": []
         }
+    },
+    {
+        "title": "Gis\u00e8le Pelicot condemns rape accused and says French society must change",
+        "description": "She has waived her right to anonymity so the entire trial can be heard in public.",
+        "publication_date": "2024-11-19T16:20:43+00:00",
+        "source_url": "https://www.bbc.com/news/articles/c1lg2593l8lo",
+        "topics": [
+            "heard",
+            "french",
+            "public",
+            "must",
+            "pelicot",
+            "accused",
+            "says",
+            "gis\u00e8le",
+            "society",
+            "rape",
+            "change",
+            "waived",
+            "anonymity",
+            "trial",
+            "entire",
+            "condemns",
+            "right"
+        ],
+        "named_entities": {
+            "people": [
+                "Gis\u00e8le"
+            ],
+            "locations": [
+                "French"
+            ],
+            "organizations": [
+                "Pelicot"
+            ]
+        }
+    },
+    {
+        "title": "Google ships first developer preview Android 16 to speed up feature roll outs",
+        "description": "<p>Google is releasing the first developer preview of Android 16 to speed up feature rollouts in devices. This is a major change in the Android rollout schedule as, over the past few years, Google released its first Android developer beta around Q2, with a stable release coming out post-July. With the new schedule, Android 16&#8217;s [&#8230;]</p>\n<p>\u00a9 2024 TechCrunch. All rights reserved. For personal use only.</p>",
+        "publication_date": "2024-11-19T19:00:00+00:00",
+        "source_url": "https://techcrunch.com/2024/11/19/google-ships-first-developer-preview-android-16-to-speed-up-feature-roll-outs/",
+        "topics": [
+            "rollout",
+            "released",
+            "outs",
+            "past",
+            "16",
+            "roll",
+            "ships",
+            "q2",
+            "developer",
+            "change",
+            "major",
+            "8230",
+            "2024",
+            "android",
+            "speed",
+            "releasing",
+            "devices",
+            "around",
+            "preview",
+            "google",
+            "rollouts",
+            "p",
+            "rights",
+            "feature",
+            "release",
+            "stable",
+            "schedule",
+            "beta",
+            "coming",
+            "personal",
+            "reserved",
+            "techcrunch",
+            "years",
+            "8217",
+            "first",
+            "use",
+            "new"
+        ],
+        "named_entities": {
+            "people": [
+                "Google",
+                "Android"
+            ],
+            "locations": [
+                "Google",
+                "Q2"
+            ],
+            "organizations": [
+                "Android",
+                "TechCrunch"
+            ]
+        }
+    },
+    {
+        "title": "Las Vegas Sheriff tells a16z partners what\u2019s next on his wish list: AI for bodycams",
+        "description": "<p>Vegas police received funding for tech like drones and license plate readers from Ben Horowitz. Now it wants AI to go through police footage.</p>\n<p>\u00a9 2024 TechCrunch. All rights reserved. For personal use only.</p>",
+        "publication_date": "2024-11-19T18:35:28+00:00",
+        "source_url": "https://techcrunch.com/2024/11/19/las-vegas-sheriff-tells-a16z-partners-whats-next-on-his-wish-list-ai-for-bodycams/",
+        "topics": [
+            "vegas",
+            "license",
+            "plate",
+            "partners",
+            "funding",
+            "wants",
+            "police",
+            "2024",
+            "ai",
+            "tech",
+            "ben",
+            "horowitz",
+            "like",
+            "a16z",
+            "p",
+            "go",
+            "rights",
+            "wish",
+            "next",
+            "readers",
+            "personal",
+            "reserved",
+            "tells",
+            "list",
+            "techcrunch",
+            "sheriff",
+            "use",
+            "bodycams",
+            "las",
+            "received",
+            "drones"
+        ],
+        "named_entities": {
+            "people": [
+                "Las",
+                "Vegas Sheriff",
+                "Ben Horowitz"
+            ],
+            "locations": [],
+            "organizations": [
+                "TechCrunch"
+            ]
+        }
     }
 ]

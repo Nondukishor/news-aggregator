@@ -9,20 +9,12 @@ from datetime import datetime
 from dateutil import parser as date_parser
 import sched
 import time
+from config import rss_feeds, data_file, fetch_interval, default_publication_date
 
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('maxent_ne_chunker_tab')
 nltk.download('words')
-# --- Configuration ---
-rss_feeds = {
-    "TechCrunch": "https://techcrunch.com/feed",
-    "BBC News - World": "https://feeds.bbci.co.uk/news/world/rss.xml",
-    "Reuters": "https://feeds.reuters.com/Reuters/worldNews",
-}
-
-data_file = "news_articles.json"
-fetch_interval = 3600  # 1 hour
 
 # --- Data Handling ---
 def load_news_data():
@@ -47,14 +39,14 @@ def fetch_news_from_feed(url):
             # Ensure required fields exist
             title = getattr(entry, 'title', 'No Title')
             summary = getattr(entry, 'summary', 'No Summary')
-            published = getattr(entry, 'published', datetime.now().isoformat())
+            published = getattr(entry, 'published', default_publication_date)
             source_url = getattr(entry, 'link', '')
 
             # Parse publication date
             try:
                 publication_date = date_parser.parse(published).isoformat()
             except Exception:
-                publication_date = datetime.now().isoformat()
+                publication_date = default_publication_date
 
             text = f"{title} {summary}"
             article = {
