@@ -63,10 +63,13 @@ This program aggregates news articles from multiple RSS feeds, persists the data
 
 2. Install dependencies:
    ```bash
+   python -m venv myenv
+   source myenv/bin/activate #for linux mac
+   venv\Scripts\activate #for Windows
    pip install -r requirements.txt
    ```
 
-3. Download NLTK resources:
+3. Download NLTK resources:(Don't need to run already included in main.py file)
    ```python
    import nltk
    nltk.download('punkt')
@@ -86,7 +89,7 @@ This program aggregates news articles from multiple RSS feeds, persists the data
 
 ### Configuration
 
-Add or modify RSS feeds in the `rss_feeds` dictionary in the script:
+Add or modify RSS feeds in the `rss_feeds` dictionary in the script file `config.py`:
 ```python
 rss_feeds = {
     "TechCrunch": "https://techcrunch.com/feed",
